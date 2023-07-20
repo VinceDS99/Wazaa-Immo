@@ -1,0 +1,338 @@
+
+
+  body{
+    width:100%;
+    height:100%;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    line-height:30px;
+    /* padding:20px; */
+    margin:0;
+  }
+
+  .title{
+    text-transform:uppercase
+  }
+
+  .form-heading {
+    background: #fdfdfd; /* fallback for old browsers */
+    border-bottom: 2.5px solid #ad1212;
+    /* border-radius: 2.5px; */
+    margin: 20px 0 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    opacity: 85%;
+  }
+
+  .form-heading .prg{
+    color: #ad1212;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inline{
+    display:inline-block
+  }
+
+  label{
+    min-width: 120px;
+    position: relative;
+    cursor: pointer;
+    color: #ad1212;
+    font-size: 15px;
+  }
+
+  .btn {
+    background: #fdfdfd;
+    border: 1px solid #ad1212;
+    border-radius: 2.5px;
+    color: #ad1212;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn:hover {
+    background: #ad1212;
+    color: #fdfdfd;
+    border-radius: 2.5px;
+  }
+  
+  .form-control {
+    border: 1px solid #2c2c2c;
+    border-radius: 2.5px;
+    opacity: 60%;
+    height: 27px;
+    margin: auto;
+  }
+  
+  #formstyle {
+    background: #fdfdfd;
+    border-radius: 2.5px;
+    opacity: 85%;
+  }
+
+/* Barre de recherche */
+
+  #searchbar {
+    background-color: rgb(85, 85, 85);
+    padding: 15px;
+  }
+
+  #search {
+    background-color: white;
+    opacity: 85%;
+    margin-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #ad1212;
+    border-radius: 2.5px;
+  }
+
+  select #type {
+    font-size: 12px;
+  }
+
+  label {
+    margin-bottom: 2.5px;
+    line-height: 20px;
+  }
+
+  option {
+    color: #ad1212;
+  }
+
+  .comment {
+    color: #ad1212;
+  }
+
+  .pics {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #showoff {
+    margin: 15px;
+    border: solid 1px rgb(117, 117, 117);
+    border-radius: 2.5px;
+  }
+
+/* AccueilView */
+
+  #commentaire {
+    background-color: #fdfdfd;
+    opacity: 85%;
+    border: 1px solid #ad1212;
+    border-radius: 2.5px;
+    padding: 10px;
+  }
+
+  #note {
+    color: black;
+    opacity: 65%;
+  }
+
+  #area {
+    background-color: rgb(190, 190, 190);
+  }
+
+  #sendit {
+    display: flex;
+    justify-content: center;
+  }
+
+  #cont {
+    background-color: white;
+    opacity: 85%;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid #ad1212;
+    border-radius: 2.5px;
+  }
+
+#noteclient {
+  background-color: black;
+  opacity: 80%;
+  color: #fdfdfd;
+  padding: 10px;
+  border-radius: 2.5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#badgenote {
+  padding: 10px;
+}
+
+#needlog {
+  border: 1px solid #ad1212;
+  color: #ad1212;
+  text-align: center;
+}
+
+#topworst {
+  background-color: white;
+  opacity: 85%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  border: 1px solid #ad1212;
+  border-radius: 2.5px;
+}
+
+#top {
+  border-bottom: black 0px;
+}
+
+#tw {
+  text-align: center;
+}
+
+#seethrough {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* InscriptionView */
+
+#regstr{
+  background-color: white;
+  opacity: 85%;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid #ad1212;
+  border-radius: 2.5px;
+  margin-bottom: 50px;
+}
+
+/* ConnexionView */
+
+#connexion {
+  background-color: white;
+  opacity: 85%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border: 1px solid #ad1212;
+  border-radius: 2.5px;
+}
+
+#but {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#logmail {
+  margin-top: 20px;
+}
+
+#logmp {
+  margin-top: 35px;
+}
+
+/* Vente/LocationView */
+
+.container #ad {
+  background-color: white;
+  opacity: 85%;
+  padding: 50px;
+  margin-bottom: 30px;
+  border: 1px solid #ad1212;
+  border-radius: 2.5px;
+}
+
+#Title{
+  border-top:#ad1212 solid 1px;
+  border-bottom:#ad1212 solid 1px;
+  background-color: rgb(49, 48, 48);
+  opacity: 90%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+}
+
+#titre {
+  color: white;
+}
+
+#ticket {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: rgb(104, 104, 104) solid 1px;
+  border-radius: 2px;
+}
+
+ul #list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#one {
+  margin-right: 5px;
+}
+
+#pagi {
+  display: flex;
+  justify-content: center;
+}
+
+/* FormulaireContactView */
+
+#con1 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/* DetailsView */
+
+#contactannonce {
+  background-color: white;
+  opacity: 85%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #ad1212;
+  border-radius: 2.5px;
+}
+
+#adticket {
+  background-color: white;
+  opacity: 85%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #ad1212;
+  border-radius: 2.5px;
+}
+
+#adbloc {
+  text-align: center;
+  justify-content: center;
+}
+
+#adlist {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#adoption {
+  margin-top: 30px;
+}

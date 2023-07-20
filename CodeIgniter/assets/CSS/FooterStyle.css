@@ -1,0 +1,26 @@
+.navbar-dark {
+    background-color: rgb(58, 52, 52);
+    color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ad1212;
+}
+
+.footer-contct {
+    background-color: white;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#con {
+    padding: 5px;
+    border: 1px solid #ad1212;
+}
+
+#con :hover {
+    background-color: #ad1212;
+    color: white;
+}
+
